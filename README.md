@@ -13,7 +13,7 @@ Welcome to **CipherForge**, a beautifully designed local password generator. It 
 Creating strong passwords usually means dealing with clunky websites. Not here! CipherForge lets you instantly generate secure passwords privately on your own computer.
 
 ### Features
-* **Custom Keyword Option:** Want your password to be based around a word you find easy to remember? Type it in! The app can securely mix it into the result, even scrambling it entirely using symbols and numbers (`e.g. amisha -> @m!$h4`) to prevent dictionary attacks!
+* **Custom Keyword Option:** Want your password to be based around a word you find easy to remember? Type it in! The app can securely mix it into the result, even scrambling it entirely using symbols and numbers (`e.g. cat -> c@7`) to prevent dictionary attacks!
 * **Live Strength Meter:** Pick your required length and character choices (like symbols, capitals, or numbers). The real-time strength bar instantly rates the security of your new password from *"Fragile"* all the way up to *"Fortress"*.
 * **Beautiful & Clean Interface:** An elegant, distraction-free environment that looks great and is easy to use.
 * **100% Private (Local First):** Passwords generated using CipherForge never leave your browser context. It runs locally via Vite for maximum privacy.
