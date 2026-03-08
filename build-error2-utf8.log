@@ -1,0 +1,113 @@
+﻿
+> password-generator@0.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 8 modules transformed.
+node.exe : 
+[31mx[39m Build 
+failed in 78ms
+At line:1 char:1
++ & "C:\/node.exe" "C:
+\/node_modules/npm/bin
+/npm-cli.js" run build
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: ([31mx[39   
+ m Build failed in    
+ 78ms:String) [],     
+RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+[31merror during 
+build:
+[31m[vite:esbuild] 
+Transform failed with 
+1 error:
+C:/Users/Amisha/OneDri
+ve/Desktop/password ge
+nerator/components/Str
+engthMeter.jsx:24:37: 
+ERROR: Syntax error 
+"`"[31m
+file: [36mC:/Users/Am
+isha/OneDrive/Desktop/
+password generator/com
+ponents/StrengthMeter.
+jsx:24:37[31m
+[33m
+[33mSyntax error 
+"`"[33m
+22 |                  
+        ...styles.stre
+ngthFill,
+23 |                  
+        width: 
+strength.width,
+24 |                  
+        background: \`
+linear-gradient(90deg,
+ #ffb3cc, 
+\${strength.color})\`,
+   |                  
+                     ^
+25 |                  
+boxShadow: \`0 0 12px 
+\${strength.color}99\`
+,
+26 |            }}
+[31m
+    at 
+failureErrorWithLog (C
+:\Users\Amisha\OneDriv
+e\Desktop\password gen
+erator\node_modules\es
+build\lib\main.js:1472
+:15)
+    at C:\Users\Amisha
+\OneDrive\Desktop\pass
+word generator\node_mo
+dules\esbuild\lib\main
+.js:755:50
+    at responseCallbac
+ks.<computed> (C:\User
+s\Amisha\OneDrive\Desk
+top\password generator
+\node_modules\esbuild\
+lib\main.js:622:9)
+    at 
+handleIncomingPacket (
+C:\Users\Amisha\OneDri
+ve\Desktop\password ge
+nerator\node_modules\e
+sbuild\lib\main.js:677
+:12)
+    at 
+Socket.readFromStdout 
+(C:\Users\Amisha\OneDr
+ive\Desktop\password g
+enerator\node_modules\
+esbuild\lib\main.js:60
+0:7)
+    at Socket.emit 
+(node:events:508:28)
+    at addChunk (node:
+internal/streams/reada
+ble:559:12)
+    at readableAddChun
+kPushByteMode (node:in
+ternal/streams/readabl
+e:510:3)
+    at Readable.push (
+node:internal/streams/
+readable:390:5)
+    at 
+Pipe.onStreamRead (nod
+e:internal/stream_base
+_commons:189:23)[39m

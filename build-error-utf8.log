@@ -1,0 +1,92 @@
+﻿
+> password-generator@0.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 5 modules transformed.
+node.exe : 
+[31mx[39m Build 
+failed in 68ms
+At line:1 char:1
++ & "C:\/node.exe" "C:
+\/node_modules/npm/bin
+/npm-cli.js" run build
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: ([31mx[39   
+ m Build failed in    
+ 68ms:String) [],     
+RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+[31merror during 
+build:
+[31m[vite:build-impor
+t-analysis] [plugin vi
+te:build-import-analys
+is] styles.js 
+(275:0): Failed to 
+parse source for 
+import analysis 
+because the content 
+contains invalid JS 
+syntax. If you are 
+using JSX, make sure 
+to name the file with 
+the .jsx or .tsx 
+extension.[31m
+file: [36mC:/Users/Am
+isha/OneDrive/Desktop/
+password generator/sty
+les.js:275:0[31m
+[33m
+273:   .slider::-webki
+t-slider-thumb { 
+-webkit-appearance: 
+none; width: 18px; 
+height: 18px; 
+border-radius: 50%; 
+background...
+274: \`;
+[31m
+    at getRollupError 
+(file:///C:/Users/Amis
+ha/OneDrive/Desktop/pa
+ssword%20generator/nod
+e_modules/rollup/dist/
+es/shared/parseAst.js:
+402:41)
+    at error (file:///
+C:/Users/Amisha/OneDri
+ve/Desktop/password%20
+generator/node_modules
+/rollup/dist/es/shared
+/parseAst.js:398:42)
+    at Object.error (f
+ile:///C:/Users/Amisha
+/OneDrive/Desktop/pass
+word%20generator/node_
+modules/rollup/dist/es
+/shared/node-entry.js:
+22249:20)
+    at Object.error (f
+ile:///C:/Users/Amisha
+/OneDrive/Desktop/pass
+word%20generator/node_
+modules/rollup/dist/es
+/shared/node-entry.js:
+21298:42)
+    at 
+Object.transform (file
+:///C:/Users/Amisha/On
+eDrive/Desktop/passwor
+d%20generator/node_mod
+ules/vite/dist/node/ch
+unks/dep-BK3b2jBa.js:6
+4913:14)[39m
